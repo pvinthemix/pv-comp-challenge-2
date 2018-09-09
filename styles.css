@@ -26,6 +26,20 @@ body {
   padding: 10px 10px;
 }
 
+.views02 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.two {
+  font-size: 35px;
+  text-align: center;
+  font-weight: thin;
+}
+
 .main-info h3 {
   padding: 10px;
 }
@@ -53,10 +67,40 @@ body {
 
 .images {
   background-size: cover;
-  height: 125px;
+  height: 150px;
   display: flex;
   align-content: center;
   background-repeat: no-repeat;
+}
+
+.fa-list-ul,
+.fa-user {
+  color: #67CAFC;
+  font-size: 1em;
+}
+
+.fa-arrow-alt-circle-right {
+  font-size: 3em;
+}
+
+.nav-shares {
+  color: white;
+}
+
+.nav-playlists {
+  margin: 10px;
+}
+
+.nav-videos {
+  margin: 10px;
+}
+
+.black-background {
+  background-color: black;
+  height: 150px;
+  opacity: .85;
+  background-size: cover;
+  background-position: center;
 }
 
 .shares {
@@ -65,8 +109,6 @@ body {
   padding: 20px 30px 5px;
   color: #525252;
 }
-
-
 
 .nav-bar-left {
   display: flex;
@@ -78,13 +120,10 @@ body {
   justify-content: space-between;
   flex-direction: column;
   color: white;
-  margin: 10px;
-}
-
-.nav-bar-right p {
   margin-top: -90px;
   margin-right: 10px;
 }
+
 
 .web-link {
   background-color: #EFEFEF;
@@ -119,10 +158,10 @@ body {
 
 .fa, .far, .fas {
   font-family: "Font Awesome 5 Free";
-  font-size: 3em;
   padding-left: 6px;
   line-height: 1;
   margin-top: 8%;
+  font-weight: 999px,
 }
 
 
