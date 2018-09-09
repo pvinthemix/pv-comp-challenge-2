@@ -6,10 +6,18 @@
 
 header {
   background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px; 
+  
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-info h2 {
+  font-size: 1em;
 }
 
 .main-container {
@@ -17,18 +25,18 @@ body {
   padding: 2%;
   display: grid;
   grid-template-columns: repeat(autofill, minmax(300px, 1fr));
-  grid-column-gap: 1em;
+  grid-column-gap: .05em;
   grid-template-areas: 
     "box1 box2 box3 box4"
     "box5 box6 box7 box8";
 }
 
 .images {
-  background-position: center;
   background-size: cover;
   height: 125px;
   display: flex;
   align-content: center;
+  background-repeat: no-repeat;
 }
 
 .shares {
@@ -38,10 +46,30 @@ body {
   color: #525252;
 }
 
+.nav-bar-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar-right {
+  display: flex;
+}
+
+
+.web-link {
+  background-color: #EFEFEF;
+  height: 40px;
+  margin: 10px;
+  overflow-wrap: break-word;
+}
+
 .main-info {
   background-color: white;
   color: #636363;
-  height: 300px;
+}
+
+.attachments-number {
+  color: #53C3FC;
 }
 
 .fa-arrow-alt-circle-right {
@@ -64,47 +92,45 @@ body {
 
 
 .box {
-  margin:10px;
-  background
-
+  margin: 10px;
+  display: flex;
+  flex-direction: column; 
 }
 
-.box1 {
+.background-image1 {
   background-image: url(images/pic1.jpg);
-
 }
 
-.box2 {
-  background-image: url(images/pic2.jpg);
-
+.background-image2 {
+  background-image: url(images/pic2.jpg)
 }
 
-.box3 {
+.background-image3 {
   background-image: url(images/pic3.jpg);
 
 }
 
-.box4 {
+.background-image4 {
   background-image: url(images/pic4.jpg);
   
 }
 
-.box5 {
+.background-image5 {
   background-image: url(images/pic5.jpg);
  
 }
 
-.box6 {
+.background-image6 {
   background-image: url(images/pic6.jpg);
 
 }
 
-.box7 {
+.background-image7 {
   background-image: url(images/pic7.jpg);
 
 }
 
-.box8 {
+.background-image8 {
   background-image: url(images/pic8.jpg);
 
 }
