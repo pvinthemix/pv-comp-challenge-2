@@ -58,6 +58,7 @@ body {
   background-color: #EFEFEF;
   padding: 2%;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: .05em;
   grid-template-areas: 
     "box1 box2 box3 box4"
@@ -114,6 +115,7 @@ body {
   font-size: 40px;
   padding: 20px 30px 5px;
   color: #525252;
+  padding-left: 2%;
 }
 
 .nav-bar-left {
@@ -238,6 +240,7 @@ body {
 @media (max-width: 820px) {
 
   .main-container {
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "box1 box2" 
       "box3 box4"
@@ -261,6 +264,7 @@ body {
 @media (max-width: 600px) {
 
   .main-container {
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "box1" 
       "box2" 
