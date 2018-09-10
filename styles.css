@@ -66,11 +66,12 @@ body {
 }
 
 .images {
+  
+  height: 150px; 
   background-size: cover;
-  height: 150px;
-  display: flex;
-  align-content: center;
+  background-position: center;
   background-repeat: no-repeat;
+  align-content: center;
 }
 
 .fa-list-ul,
@@ -85,14 +86,15 @@ body {
 
 .nav-shares {
   color: white;
+  margin: 10px 35px;
 }
 
 .nav-playlists {
-  margin: 10px;
+  margin: 10px 35px;
 }
 
 .nav-videos {
-  margin: 10px;
+  margin: 10px 35px;
 }
 
 .black-background {
@@ -112,7 +114,8 @@ body {
 
 .nav-bar-left {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
 }
 
 .nav-bar-right {
@@ -175,15 +178,17 @@ body {
 
 .background-image1 {
   background-image: url(images/pic1.jpg);
+  /* display: flex; */
 }
 
 .background-image2 {
-  background-image: url(images/pic2.jpg)
+  background-image: url(images/pic2.jpg);
+  
 }
 
 .background-image3 {
   background-image: url(images/pic3.jpg);
-
+  
 }
 
 .background-image4 {
@@ -193,20 +198,20 @@ body {
 
 .background-image5 {
   background-image: url(images/pic5.jpg);
- 
+  
 }
 
 .background-image6 {
   background-image: url(images/pic6.jpg);
-
+  
 }
 
 .background-image7 {
   background-image: url(images/pic7.jpg);
-
+  
 }
 
 .background-image8 {
   background-image: url(images/pic8.jpg);
-
+  
 }
