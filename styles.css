@@ -29,12 +29,9 @@ body {
 .views02 {
   display: flex;
   justify-content: space-between;
+  align-content: flex-end;
   flex-direction: column;
   color: white;
-  align-items: center;
-  padding: 10px;
-  font-size: 1.2rem
-  
 }
 
 .two {
@@ -83,8 +80,18 @@ body {
   font-size: 1em;
 }
 
+.above-card {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
 .fa-arrow-alt-circle-right {
-  font-size: 3em;
+  font-size: 3rem;
+  
 }
 
 .nav-shares {
