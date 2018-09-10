@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   color: white;
   margin-right: 15px;
+  margin-top: 22px;
 }
 
 .two {
@@ -132,6 +133,8 @@ body {
 
 .two-win-text {
   font-size: 50px;
+  margin-bottom: 20px;
+
 }
 
 .admin-text {
@@ -247,6 +250,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+
+  header {
+    padding-top: 80px;
+  }
 
 
 }
