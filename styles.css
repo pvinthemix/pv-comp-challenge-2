@@ -28,10 +28,9 @@ body {
 
 .views02 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-end;
   flex-direction: column;
   color: white;
+  margin-right: 15px;
 }
 
 .two {
@@ -70,7 +69,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  align-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .fa-list-ul,
@@ -92,10 +92,12 @@ body {
 
 .nav-playlists {
   margin: 10px 35px;
+  color: #828282;
 }
 
 .nav-videos {
   margin: 10px 35px;
+  color: #828282;
 }
 
 .black-background {
@@ -126,6 +128,18 @@ body {
   color: white;
   margin-top: -90px;
   margin-right: 10px;
+}
+
+.two-win-text {
+  font-size: 50px;
+}
+
+.admin-text {
+  color: #67CAFC;
+}
+
+.profile {
+  color: white;
 }
 
 
