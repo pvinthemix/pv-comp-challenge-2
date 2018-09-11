@@ -17,12 +17,12 @@ body {
 }
 
 .recipeints-name {
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px 10px;
 }
 
 .playlist-name {
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px 10px;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .main-info p {
   padding: 10px 10px 0px 10px;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .timestamp {
@@ -174,7 +174,7 @@ body {
 
 .attachments-number {
   color: #53C3FC;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: lighter;
   padding: 0px 10px 22px;
 }
@@ -186,7 +186,7 @@ body {
 
 .fa-arrow-alt-circle-right:hover {
   cursor: pointer;
-  filter: brightness(95%);
+  filter: brightness(80%);
   color: #53C3FC;
 }
 
