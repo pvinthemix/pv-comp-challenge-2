@@ -81,12 +81,6 @@ body {
   font-size: 1em;
 }
 
-
-.fa-arrow-alt-circle-right {
-  font-size: 3rem;
-  
-}
-
 .nav-shares {
   color: white;
   margin: 10px 35px;
@@ -105,11 +99,11 @@ body {
 .nav-shares:hover,
 .nav-playlists:hover,
 .nav-videos:hover {
-  margin-left: 30px;
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
   -webkit-transition: .3s ease-in-out;
   transition: .1s ease-in-out;
+  cursor: pointer;
 }
 
 .black-background {
@@ -187,6 +181,7 @@ body {
 
 .fa-arrow-alt-circle-right {
   color: white;
+  font-size: 3rem;
 }
 
 .fa-arrow-alt-circle-right:hover {
