@@ -1,4 +1,4 @@
-# pv-comp-challenge-2
+# Paul Vangelakos-Turing-comp-challenge-2
 
 <h1>Recreate provided composition with limited creative license.</h1>
 
