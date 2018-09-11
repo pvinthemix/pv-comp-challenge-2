@@ -186,7 +186,8 @@ body {
 
 .fa-arrow-alt-circle-right:hover {
   cursor: pointer;
-  filter: brightness(90%);
+  filter: brightness(95%);
+  color: #53C3FC;
 }
 
 
